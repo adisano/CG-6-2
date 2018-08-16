@@ -8,12 +8,7 @@ namespace UpperCase
         {
             Console.WriteLine("Enter a word:");
 
-            //take input from the user and convert it to all upper case
-            string userString = Console.ReadLine();
-            string userStringUp = userString.ToUpper();
-
-            //print upper case string
-            Console.WriteLine(userStringUp);
+            Console.WriteLine(Console.ReadLine().ToUpper());
 
             //keep program open
             Console.ReadLine();
